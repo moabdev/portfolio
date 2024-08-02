@@ -18,7 +18,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Pronto para levar <span className="text-purple">sua</span> digital
+          Pronto para levar <span className="text-purple">sua</span> 
           <span className="text-purple"> presença</span> digital ao próximo
           nível?
         </h1>
