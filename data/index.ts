@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "",
+    title: "Organo Pessoas e Times em um só lugar.",
+    des: "Uma aplicação web intuitiva para criar times e atribuir colaboradores, facilitando a gestão de equipes e projetos. Organize e visualize a distribuição de tarefas de forma eficiente e colaborativa.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://organo-zeta-jet.vercel.app/",
   },
   {
     id: 2,
