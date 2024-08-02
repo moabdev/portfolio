@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Priorizo uma boa comunicação com o cliente para compreender e resolver a sua dor.",
+    title:
+      "Priorizo uma boa comunicação com o cliente para compreender e resolver a sua dor.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -74,7 +75,7 @@ export const projects = [
     id: 1,
     title: "Organo Pessoas e Times em um só lugar.",
     des: "Uma aplicação web intuitiva para criar times e atribuir colaboradores, facilitando a gestão de equipes e projetos. Organize e visualize a distribuição de tarefas de forma eficiente e colaborativa.",
-    img: "/p1.svg",
+    img: "/organo.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://organo-zeta-jet.vercel.app/",
   },
