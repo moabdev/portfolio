@@ -7,7 +7,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <section className="py-20" id="projetos">
       <h1 className="heading">
         Projetos {" "}
         <span className="text-purple">Recentes</span>
@@ -76,7 +76,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

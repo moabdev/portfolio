@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer className="w-full pt-20 pb-10" id="contato">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
@@ -21,7 +21,7 @@ const Footer = () => {
           Pronto para elevar 
           <span className='text-purple'> sua </span> 
           <span className='text-purple'> presença </span> 
-          digital a um novo patamar?"
+          digital a um novo patamar?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Entre em contato comigo hoje e vamos discutir como posso ajudá-lo a
