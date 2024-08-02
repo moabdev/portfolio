@@ -13,7 +13,7 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card
           title="Planejamento e Estratégia"
-          icon={<AceternityIcon order="Phase 1" />}
+          icon={<AceternityIcon order="Fase 1" />}
           des="Colaboraremos para mapear os objetivos do seu site, o público-alvo e as funcionalidades principais. Discutiremos coisas como estrutura do site, navegação e requisitos de conteúdo."
         >
           <CanvasRevealEffect
@@ -23,7 +23,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Desenvolvimento e Atualização de Progresso"
-          icon={<AceternityIcon order="Phase 2" />}
+          icon={<AceternityIcon order="Fase 2" />}
           des="Assim que concordarmos com o plano, coloco minha playlist de música clássica e mergulho na codificação. Desde os esboços iniciais até o código finalizado, mantenho você atualizado em cada etapa do processo."
         >
           <CanvasRevealEffect
@@ -38,7 +38,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Lançamento"
-          icon={<AceternityIcon order="Phase 3" />}
+          icon={<AceternityIcon order="Fase 3" />}
           des="É aqui que a mágica acontece! Com base no design aprovado, vou traduzir tudo em código funcional, construindo seu site do zero."
         >
           <CanvasRevealEffect
