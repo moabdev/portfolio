@@ -18,9 +18,10 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Pronto para levar <span className="text-purple">sua</span> 
-          <span className="text-purple"> presença</span> digital ao próximo
-          nível?
+          Pronto para elevar 
+          <span className='text-purple'> sua </span> 
+          <span className='text-purple'> presença </span> 
+          digital a um novo patamar?"
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Entre em contato comigo hoje e vamos discutir como posso ajudá-lo a
@@ -41,14 +42,14 @@ const Footer = () => {
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
-            <Link key={info.id} href={info.link}>
+            <a key={info.id} href={info.link} target="_blank" rel="noreferrer">
               <div
                 key={info.id}
                 className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
               >
                 <img src={info.img} alt="icons" width={20} height={20} />
               </div>
-            </Link>
+            </a>
           ))}
         </div>
       </div>

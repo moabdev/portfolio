@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Tecnologias que Domino!",
-    description: "Estou sempre me atualizando",
+    title: "tecnologias!",
+    description: "Estou sempre me atualizando em novas",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -162,8 +162,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Analista de teste/QA",
+    desc: "Planejar, criar e executar testes manuais e automáticos.Trabalhar lado a lado com desenvolvedores e designers para identificar e corrigir bugs. Contribuir para a melhoria contínua dos processos de desenvolvimento e QA.",
     className: "md:col-span-4",
     thumbnail: "/exp2.svg",
   },
