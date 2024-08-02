@@ -1,14 +1,14 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Sobre", link: "#sobre" },
+  { name: "Projetos", link: "#projetos" },
+  { name: "Avaliações", link: "#avaliacoes" },
+  { name: "Contato", link: "#contato" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Priorizo uma boa comunicação com o cliente para compreender e resolver a sua dor.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Disponível em qualquer região",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Tecnologias que Domino!",
+    description: "Estou sempre me atualizando",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Apaixonado por tecnologia e desenvolvimento",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Atualmente Desenvolvendo uma plataforma de ensino EAD",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Deseja iniciar um novo projeto?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -107,33 +107,15 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Tive o prazer de trabalhar com Moab e posso dizer que ele é um talento excepcional no desenvolvimento full stack. Ele domina tanto front-end quanto back-end, resolvendo problemas de forma criativa e eficiente. Além de suas habilidades técnicas, Moab é colaborativo, comunicativo e sempre comprometido com a qualidade. Recomendo Moab sem medo para qualquer equipe ou projeto.",
+    name: "Leonardo Cintra",
+    title: "Product Owner na Elastic Code",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "O Moab é um profissional da área de tecnologia focado e dedicado na resolução de problemas, buscando sempre entender a fundo as regras de negócios, as tecnologias a serem utilizadas no projeto e, além disso, sua experiência como designer agrega valor quando o assunto é frontend, pois ele utiliza seu conhecimento para elaborar telas elegantes e funcionais que atendem aos padrões de UX/UI.",
+    name: "Fernando Stadler",
+    title: "Desenvolvedor de Software Back-End",
   },
 ];
 
@@ -173,31 +155,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
+    title: "Desenvolvedor Web Full-Stack ",
+    desc: "Atuei como Desenvolvedor Web Full Stack na Elastic Code, utilizando Docker, NestJS, Node.js, Prisma, React e TailwindCSS. Durante minha experiência, modelei bancos de dados para garantir a integridade e eficiência dos sistemas. Liderei a equipe de desenvolvedores, conduzindo e pontuando sprints com metodologias ágeis, assegurando a entrega contínua e de alta qualidade. Promovi um ambiente colaborativo e orientado a resultados. Fui responsável por liderar apresentações técnicas e de projetos, comunicando claramente as soluções e progressos para as partes interessadas. Resolvi problemas complexos com criatividade e eficiência.",
+    className: "md:col-span-4",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Mobile App Dev - JSM Tech",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-4",
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -205,13 +173,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link: "https://github.com/moabdev",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/moabmacena/",
   },
 ];
