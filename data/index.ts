@@ -80,11 +80,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Video Conferencing App",
-    des: "",
-    img: "/p2.svg",
+    title: "Gerador de Senhas",
+    des: "Uma aplicação web simples e segura que gera senhas fortes e aleatórias para proteger suas contas online. Personalize o comprimento e a complexidade das senhas conforme suas necessidades.",
+    img: "/gerador-de-senhas.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://gerador-de-senhas-theta-eight.vercel.app/",
   },
 ];
 
